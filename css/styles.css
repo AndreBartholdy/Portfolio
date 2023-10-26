@@ -173,6 +173,7 @@ span {
   margin-top: 4rem;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .icons-about {
@@ -488,6 +489,16 @@ span {
   .about img {
     width: 70vw;
     margin-top: 4rem;
+  }
+
+  .icons-about-box {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .icons-about{
+    max-width: 40px;
+    max-height: 40px;
   }
 
   .services h2 {
