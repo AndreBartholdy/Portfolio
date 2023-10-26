@@ -547,4 +547,14 @@ span {
   .about-img img {
     width: 90vw;
   }
+
+  .icons-about-box {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .icons-about{
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
