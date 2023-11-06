@@ -176,6 +176,14 @@ span {
   flex-wrap: wrap;
 }
 
+.icons-about-box > article {
+  text-align: center;
+}
+
+.icons-about-box > article > p {
+  font-size: 10px;
+}
+
 .icons-about {
   width: 40px;
   height: 40px;
@@ -421,6 +429,10 @@ span {
     padding: 10rem 3% 2rem;
   }
 
+  .home-img {
+    display: none;
+  }
+
   .services {
     padding-bottom: 7rem;
   }
@@ -477,9 +489,8 @@ span {
     font-size: 5rem;
   }
 
-  .home-img img {
-    width: 70vw;
-    margin-top: 4rem;
+  .home-img {
+    display: none;
   }
 
   .about {
@@ -489,6 +500,10 @@ span {
   .about img {
     width: 70vw;
     margin-top: 4rem;
+  }
+
+  .about-img {
+    display: none;
   }
 
   .icons-about-box {
@@ -518,11 +533,27 @@ span {
   .portfolio-container {
     grid-template-columns: 1fr;
   }
+
+  .home-img {
+    display: none;
+  }
+
+  .about-img {
+    display: none;
+  }
 }
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .about-img {
+    display: none;
   }
 
   .contact form .input-box input {
@@ -544,8 +575,16 @@ span {
     width: 90vw;
   }
 
+  .home-img {
+    display: none;
+  }
+
   .about-img img {
     width: 90vw;
+  }
+
+  .about-img {
+    display: none;
   }
 
   .icons-about-box {
